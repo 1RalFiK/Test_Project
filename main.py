@@ -22,6 +22,5 @@ data = {
     }
 }
 
-
 response = requests.post(upload_url, json = data, headers=headers,)
 print(response.json())
